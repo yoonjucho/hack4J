@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded" >
+
+    <NumberPicker
+        android:id="@+id/numberPicker_numberpickerdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="5dp" >
+
+        <Button
+            android:id="@+id/btn_numberpickerdialog_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:background="@drawable/button_drawable"
+            android:text="@string/numberpickerdialog_cancel"
+            android:textColor="@color/col_dark_Yellow"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_numberpickerdialog_set"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:background="@drawable/button_drawable"
+            android:text="@string/numberpickerdialog_set"
+            android:textColor="@color/col_dark_Yellow"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DDINGDONG</string>
+    <string name="app_id">1087378188003349</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="col_dark_Yellow">#b64e27</color>
+    <color name="col_light_Yellow">#d27807</color>
+    <color name="col_dark_gray">#e89019</color>
+    <color name="col_lighter_gray">#669900</color>
+    <color name="col_dark_green">#669900</color>
+    <color name="col_gray">#373737</color>
+    <color name="col_yellowgray">#ce7d0f</color>
+    <color name="col_yellowgray_gradient">#d27817</color>
+    <color name="col_red">#d00207</color>
+    <color name="col_flame_light_Yellow">#f3ddc0</color>
+    <color name="col_flame_light_Blue">#c8d2e0</color>
+    <color name="col_flame_light_Red">#dd3e45</color>
+    <color name="col_flame_light_gray">#d5d5d5</color>
+    <color name="col_flame_drak_yellow">#ffc600</color>
+
+    <string name="homeactivity_asklocation">위치를 입력하세요</string>
+    <string name="demo_string">Demo String</string>
+    <string name="emptylistView_string">담겨있는 주문 없음</string>
+    <string name="homeactivity_userReview">리뷰</string>
+    <string name="SwichBoardActivity_img_home">홈</string>
+    <string name="SwichBoardActivity_img_profile">프로필</string>
+    <string name="SwichBoardActivity_img_cart">예약 목록</string>
+    <string name="SwichBoardActivity_img_discount">할인</string>
+    <string name="SwichBoardActivity_img_orderstatus">예약 상태</string>
+    <string name="SwichBoardActivity_img_about">앱 소개</string>
+    <string name="LoginActivity_frmLay_login">로그인</string>
+    <string name="LoginActivity_frmLay_signup">회원가입</string>
+    <string name="LoginActivity_img_email">이메일</string>
+    <string name="LoginActivity_img_password">비밀번호</string>
+    <string name="OrderActivity_img_order">예약 만들기</string>
+    <string name="aboutactivity_topTitle">앱 소개</string>
+    <string name="aboutactivity_virsion">버전 1.0</string>
+    <string name="aboutactivity_copyright">\@ 2015 띵똥와플</string>
+    <string name="aboutactivity_allrightreserved">:)</string>
+    <string name="addtochart_topTitle">예약 목록에 넣기</string>
+    <string name="addtochart_quantity">수량</string>
+    <string name="addtochart_additionalOption">추가 옵션</string>
+    <string name="addtochart_spicialInstration">스페셜</string>
+    <string name="addtochart_chargeMayApply">추가요금이 부과될 수도 있습니다.</string>
+    <string name="addtochart_quantity_plush">+</string>
+    <string name="addtochart_noOfQuantity">1</string>
+    <string name="addtochart_quantity_minus">-</string>
+    <string name="checkoutactivity_toptitle">예약 하기</string>
+    <string name="checkoutactivity_item">메뉴 목록</string>
+    <string name="checkoutactivity_resName">레스토랑 이름</string>
+    <string name="checkoutactivity_qty">수량</string>
+    <string name="checkoutactivity_price">가격</string>
+    <string name="checkoutactivity_delete">지우기</string>
+    <string name="checkoutactivity_subtotal">총 :</string>
+    <string name="checkoutactivity_addItems">추가하기</string>
+    <string name="checkoutactivity_discount">할인</string>
+    <string name="checkoutactivity_tax">세금 :</string>
+    <string name="checkoutactivity_deliverycharge">추가 :</string>
+    <string name="checkoutactivity_total">총 :</string>
+    <string name="checkoutactivity_amount">109 Rs</string>
+    <string name="orderstatusactivity_topTitle">예약 상태</string>
+    <string name="orderstatusactivity_status">상태</string>
+    <string name="orderstatusactivity_statusName">진행중..</string>
+    <string name="orderstatusactivity_priceName">가격</string>
+    <string name="orderstatusactivity_orderTime">예약 생성 시간</string>
+    <string name="orderstatusactivity_orderType">타입</string>
+    <string name="orderstatusactivity_orderTakeTime">2:30 PM</string>
+    <string name="orderstatusactivity_orderTakeTypeName">방문 식사</string>
+    <string name="orderstatusactivity_itemDetails">세부사항</string>
+    <string name="userprofile_userName">조윤주</string>
+    <string name="userprofile_topTitleuserProfile">프로필</string>
+    <string name="userprofile_mailIdName">이메일</string>
+    <string name="userprofile_mailId">support@jousterlabs.com</string>
+    <string name="userprofile_phoneNumberName">휴대폰 번호</string>
+    <string name="userprofile_phoneNumber">+919731648519</string>
+    <string name="userprofile_enterPlaceName">이름</string>
+    <string name="userprofile_enterPlace">서울</string>
+    <string name="selectedRestaurantActivity_topTitle">선택된 레스토랑 이름</string>
+    <string name="selectedRestaurantActivity_oderingHoursTitle">예약 생성 시간 :</string>
+    <string name="selectedRestaurantActivity_oderingHours">11 AM to 10 PM</string>
+    <string name="selectedRestaurantActivity_mostpopular">베스트셀러</string>
+    <string name="selectedRestaurantActivity_noofmostpopular">7 접시</string>
+    <string name="selectedRestaurantActivity_menulist">메뉴 리스트</string>
+    <string name="selectedRestaurantActivity_items_Recipes">레시피 세부사항</string>
+    <string name="selectedRestaurantActivity_items_price">1199 Rs</string>
+    <string name="getlisthomeactivity_Delivery">Deli:</string>
+    <string name="getlisthomeactivity_free_delivery">Free</string>
+    <string name="getlisthomeactivity_mimimumord">Min:</string>
+    <string name="getlisthomeactivity_mimimumDistance">10km</string>
+    <string name="getlisthomeactivity_noOfStare">10</string>
+    <string name="getlisthomeactivity_resName">Sushi Samurai</string>
+    <string name="getlisthomeactivity_mimimumordprice">20 Rs</string>
+    <string name="getlisthomeactivity_TopTitle">레스토랑</string>
+    <string name="getlisthomeactivity_discount">50%</string>
+    <string name="signupactivity_signupName">회원가입</string>
+    <string name="signupactivity_name">사용자 이름</string>
+    <string name="signupactivity_userName">ㅈㅇㅈ</string>
+    <string name="getlisthomeactivity_popular">Popular</string>
+    <string name="getlisthomeactivity_search">검색하기...</string>
+    <string name="getlisthomeactivity_newest">최근</string>
+    <string name="getlisthomeactivity_distance">거리</string>
+    <string name="getlisthomeactivity_minimum">최소</string>
+    <string name="getlisthomeactivity_freedelivery">무료배달</string>
+    <string name="selectedRestaurantActivity_menu">메뉴</string>
+    <string name="selectedRestaurantActivity_fullmenu">전체 메뉴</string>
+    <string name="selectedRestaurantActivity_spicial">스페셜</string>
+    <string name="checkoutactivity_picup">Picup</string>
+    <string name="checkoutactivity_deliver">Delivery</string>
+    <string name="getlisthomeactivity_listview_items_sampletwo_resName">24TH MAIN,CROSS ROAD INN</string>
+    <string name="getlisthomeactivity_listview_items_sampletwo_resAddress">JP Nagar South Banglore</string>
+    <string name="getlisthomeactivity_listview_items_sampletwo_rating">3.5</string>
+    <string name="getlisthomeactivity_listview_items_sampletwo_review">1,129 review</string>
+    <string name="getlisthomeactivity_listview_items_sampletwo_phNUmber">+917483279900</string>
+    <string name="ovweviewfragment_diningStyle">Dining Style</string>
+    <string name="ovweviewfragment_dressCode">드레스 코드</string>
+    <string name="ovweviewfragment_casual">캐쥬얼</string>
+    <string name="ovweviewfragment_priceRange">가격 범위</string>
+    <string name="ovweviewfragment_price">$ 2000 - 20000</string>
+    <string name="ovweviewfragment_operatingHours">운영 시간</string>
+    <string name="ovweviewfragment_operatingTime">Mon to Sun : 9 AM to 10PM</string>
+    <string name="ovweviewfragment_phone">Phone</string>
+    <string name="ovweviewfragment_phoneNumber">+917483279900</string>
+    <string name="ovweviewfragment_fratures">Fratures</string>
+    <string name="ovweviewfragment_laidbackAtmosphere">Laid-back Atmosphere</string>
+    <string name="ovweviewfragment_description">레스토랑 디테일...</string>
+    <string name="ovweviewfragment_overView">전체보기</string>
+    <string name="ovweviewfragment_menu">메뉴</string>
+    <string name="ovweviewfragment_menuDiscount">할인 메뉴</string>
+    <string name="ovweviewfragment_nameOftheRes">레스토랑 이름</string>
+    <string name="resmenulistactivity_salads">기타요리</string>
+    <string name="resmenulistactivity_Startes">에피타이저</string>
+    <string name="resmenulistactivity_Mains">메인요리</string>
+    <string name="resmenulistactivity_Desserts">Desserts</string>
+    <string name="resmenulistactivity_listview_items_add">추가하기</string>
+    <string name="resmenulistactivity_listview_items_cart">예약 목록</string>
+    <string name="resmenulistactivity_listview_items_price">RS.320</string>
+    <string name="numberpickerdialog_cancel">취소</string>
+    <string name="numberpickerdialog_set">만들기</string>
+    <string name="count">0</string>
+    <string name="str_done">완료</string>
+    <string name="disagree">비공감</string>
+    <string name="agree">공감</string>
+    <string name="date">timeline</string>
+    <string name="review">i am good</string>
+    <string-array name="spinner_Array">
+        <item >5점</item>
+        <item >4점</item>
+        <item >3점</item>
+        <item >2점</item>
+        <item >1점</item>
+    </string-array>
+    <string-array name="spinner_Array2">
+        <item >잠재고객</item>
+        <item >추천고객</item>
+    </string-array>
+    <string-array name="spinner_Array3">
+        <item >3회이상</item>
+        <item >1회이상</item>
+    </string-array>
+    <string-array name="spinner_Array4">
+        <item >한식</item>
+        <item >분식</item>
+        <item >패스트푸드</item>
+        <item >맥주</item>
+        <item >치킨</item>
+        <item >고기</item>
+        <item >중식</item>
+        <item >양식</item>
+        <item >일식</item>
+        <item >카페</item>
+    </string-array>
+    <string-array name="spinner_Array5">
+        <item>상태변경</item>
+        <item >주문확인</item>
+        <item >준비완료</item>
+        <item >거절하기</item>
+        
+    </string-array>
+
+</resources>

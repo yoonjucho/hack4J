@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:ignore="UselessParent,RtlHardcoded" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- Start Image Icon -->
+
+        <FrameLayout
+            android:id="@+id/frmlay_resmenulistactivity_listview_items_image"
+            android:layout_width="148dp"
+            android:layout_height="148dp"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="1dp"
+                android:background="@color/col_dark_Yellow" />
+
+            <ImageView
+                android:id="@+id/img_resmenulistactivity_listview_items_image"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/theflame_main" />
+
+            <ImageView
+                android:id="@+id/imageView_resmenulistactivity_listview_items_frame"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/circle_button_one" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="1dp"
+                android:background="@color/col_dark_Yellow" />
+
+            <View
+                android:layout_width="72dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom|right"
+                android:background="@color/col_dark_Yellow" />
+        </FrameLayout>
+        <!-- end Image Icon -->
+
+
+        <!-- Start Res Details -->
+
+        <LinearLayout
+            android:id="@+id/linly_getlisthomeactivity_listview_items_sampletwo_addCart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/linly_resmenulistactivity_listview_items"
+                    android:layout_width="0dp"
+                    android:layout_height="146dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txt_resmenulistactivity_listview_items_resName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/getlisthomeactivity_listview_items_sampletwo_resName"
+                        android:textColor="@color/col_flame_light_Yellow"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txt_resmenulistactivity_listview_items_desName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/getlisthomeactivity_listview_items_sampletwo_resAddress"
+                        android:textColor="@color/col_flame_light_Blue"
+                         android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txt_resmenulistactivity_listview_items_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/resmenulistactivity_listview_items_price"
+                        android:textColor="@color/col_flame_light_Red"
+                         android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linly_resmenulistactivity_listview_items_addCart"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:background="@color/col_light_Yellow"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/imageView_resmenulistactivity_listview_items_cart"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="13dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/eat_order_cart" />
+
+                    <TextView
+                        android:id="@+id/textView_resmenulistactivity_listview_items_addtocart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/resmenulistactivity_listview_items_add"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_resmenulistactivity_listview_items_cart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/resmenulistactivity_listview_items_cart"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view_resmenulistactivity_listview_items_cart"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@color/col_dark_Yellow" />
+        </LinearLayout>
+        <!-- End Res Details -->
+
+    </LinearLayout>
+
+</LinearLayout>

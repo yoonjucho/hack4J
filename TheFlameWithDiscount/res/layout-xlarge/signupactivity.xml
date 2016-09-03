@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_dark_gray"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry,RtlHardcoded" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@drawable/topbar_theflame"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_signupactivity_Back"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_previous" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/title_bar"
+            android:contentDescription="@null" />
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/col_yellowgray_gradient"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_userprofileactivity_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@color/col_dark_Yellow"
+            android:gravity="center"
+            android:text="@string/signupactivity_signupName"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/theflame_bg"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- Start user Details mail id -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView_signupactivity_placeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signupactivity_name"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/et_signupactivity_placename"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:text="@string/signupactivity_userName"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" >
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/img_signupactivity_placeedit"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="1dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_arrow" />
+                </FrameLayout>
+            </LinearLayout>
+            <!-- End user Details mail id -->
+            <!-- Start user Details mail id -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView_signupactivity_contactnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/userprofile_phoneNumberName"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/et_signupactivity_contactnumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:text="@string/userprofile_phoneNumber"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" >
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/img_signupactivity_contactedit"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="1dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_arrow" />
+                </FrameLayout>
+            </LinearLayout>
+            <!-- End user Details mail id -->
+
+
+            <!-- Start user Details mail id -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView_signupactivity_emailName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/userprofile_mailIdName"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/et_signupactivity_emailName"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:gravity="center_vertical"
+                        android:inputType="textEmailAddress"
+                        android:text="@string/userprofile_mailId"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp">
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/img_signupactivity_emailName"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="1dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_arrow" />
+                </FrameLayout>
+            </LinearLayout>
+            <!-- End user Details mail id -->
+
+            <FrameLayout
+                android:id="@+id/fraly_loginactivity_login"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_drawable" >
+
+                <ImageView
+                    android:id="@+id/img_signupactivity_signup"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_arrow" />
+
+                <TextView
+                    android:id="@+id/textView_signupactivity_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingRight="13dp"
+                    android:text="@string/signupactivity_signupName"
+                    android:textColor="@color/col_dark_Yellow"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

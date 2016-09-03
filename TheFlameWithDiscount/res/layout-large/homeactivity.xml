@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry,RtlHardcoded" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@drawable/topbar_theflame"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_homeactivity_back"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_previous" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/title_bar"
+            android:contentDescription="@null" />
+
+        <View
+            android:layout_width="72dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/col_light_Yellow"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|bottom"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/button_drawable"
+                tools:ignore="UselessParent" >
+
+                <EditText
+                    android:id="@+id/et_homeactivity_entereat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/homeactivity_asklocation"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/col_dark_Yellow"
+                    android:textSize="18sp" >
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/img_homeactivity_address"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ic_arrow" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/progressBar_homeactivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_margin="3dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

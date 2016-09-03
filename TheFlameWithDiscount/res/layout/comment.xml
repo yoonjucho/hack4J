@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry,RtlHardcoded" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/topbar_theflame"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_resmenulistactivity_back3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_previous" />
+
+        <ImageView
+            android:id="@+id/img_resmenulistactivity_titlebar3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/title_bar"
+            android:contentDescription="@null" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/img_resmenulistactivity_cart3"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/eat_order_cart" />
+
+            <TextView
+                android:id="@+id/txt_resmenulistactivity_cartCount3"
+                android:layout_width="17dp"
+                android:layout_height="19dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/textbadgestyle"
+                android:gravity="center"
+                android:paddingLeft="1dp"
+                android:text="@string/count"
+                android:textColor="@android:color/black"
+                android:textSize="7sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/theflame_bg"
+        >
+
+        <TextView
+            android:id="@+id/resname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="양여사밥집" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="126dp"
+                android:layout_height="90dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/chu" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="TextView" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:paddingBottom="0dp"
+                    android:paddingTop="2dp" >
+
+                    <TextView
+                        android:id="@+id/nowscore1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="0dp"
+                        android:text="현재"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/nowscore2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:text="5점!"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                </LinearLayout>
+
+                <RatingBar
+                    android:id="@+id/nowrating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    style="?android:attr/ratingBarStyleSmall"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/black" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Button
+	        android:id="@+id/button99"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="등록"
+	        android:textColor="#1E90FF" />
+
+	    <Button
+	        android:id="@+id/button1"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_weight="1"
+	        android:text="등록"
+	        android:textColor="#1E90FF" />
+	</LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

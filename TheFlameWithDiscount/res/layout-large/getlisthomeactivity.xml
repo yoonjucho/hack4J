@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col_dark_gray"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry,RtlHardcoded" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@drawable/topbar_theflame"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_getlisthomeactivity_back"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_previous" />
+
+        <ImageView
+            android:id="@+id/img_getlisthomeactivity_titlebar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/title_bar"
+            android:contentDescription="@null" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/img_getlisthomeactivity_cart"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/eat_order_cart" />
+
+            <TextView
+                android:id="@+id/txt_getlisthomeactivity_cartCount"
+                android:layout_width="20dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/textbadgestyle"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:paddingLeft="1dp"
+                android:text="@string/count"
+                android:textColor="@android:color/black"
+                android:textSize="9sp"
+                tools:ignore="SmallSp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/black" >
+
+        <EditText
+            android:id="@+id/et_getlisthomeactivity_enterSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/et_bg_drawable"
+            android:hint="@string/getlisthomeactivity_search"
+            android:paddingLeft="40dp" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView_getlisthomeactivity_search"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_search" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listView_getlisthomeactivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/theflame_bg"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

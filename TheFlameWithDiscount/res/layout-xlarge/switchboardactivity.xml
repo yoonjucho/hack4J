@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/switch_bg"
+    android:orientation="vertical"
+    tools:ignore="NestedWeights,RtlHardcoded" >
+
+    <ImageView
+        android:id="@+id/img_homeactivity_titlebar"
+        android:layout_width="600dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/title_bar"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linLay_loginactivity_home"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/circle_button_two"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent" >
+
+                    <ImageView
+                        android:id="@+id/imageView_loginactivity_home"
+                        android:layout_width="144dp"
+                        android:layout_height="144dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_home" />
+
+                    <TextView
+                        android:id="@+id/txtView_switchboardactivity_home"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/SwichBoardActivity_img_home"
+                        android:textColor="@color/col_dark_Yellow"
+                        android:textSize="24sp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linLay_loginactivity_profile"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/circle_button_two"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent" >
+
+                    <ImageView
+                        android:id="@+id/imageView_loginactivity_profile"
+                        android:layout_width="144dp"
+                        android:layout_height="144dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_profile" />
+
+                    <TextView
+                        android:id="@+id/txtView_switchboardactivity_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/SwichBoardActivity_img_profile"
+                        android:textColor="@color/col_dark_Yellow"
+                        android:textSize="24sp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Cart and Discount layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linLay_loginactivity_cart"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/circle_button_two"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent" >
+
+                    <ImageView
+                        android:id="@+id/imageView_loginactivity_cart"
+                        android:layout_width="144dp"
+                        android:layout_height="144dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_cart" />
+
+                    <TextView
+                        android:id="@+id/txtView_switchboardactivity_cart"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/SwichBoardActivity_img_cart"
+                        android:textColor="@color/col_dark_Yellow"
+                       android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linLay_loginactivity_discount"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/circle_button_two"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent" >
+
+                    <ImageView
+                        android:id="@+id/imageView_loginactivity_discount"
+                       android:layout_width="144dp"
+                        android:layout_height="144dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_discount" />
+
+                    <TextView
+                        android:id="@+id/txtView_switchboardactivity_discount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/SwichBoardActivity_img_discount"
+                        android:textColor="@color/col_dark_Yellow"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Order status  and about layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linLay_loginactivity_orderstatus"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/circle_button_two"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent" >
+
+                    <ImageView
+                        android:id="@+id/imageView_loginactivity_orderstatus"
+                        android:layout_width="144dp"
+                        android:layout_height="144dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_orderstatus" />
+
+                    <TextView
+                        android:id="@+id/txtView_switchboardactivity_orderstatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/SwichBoardActivity_img_orderstatus"
+                        android:textColor="@color/col_dark_Yellow"
+                        android:textSize="24sp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linLay_loginactivity_about"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/circle_button_two"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent" >
+
+                    <ImageView
+                        android:id="@+id/imageView_loginactivity_about"
+                        android:layout_width="144dp"
+                        android:layout_height="144dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_about" />
+
+                    <TextView
+                        android:id="@+id/txtView_switchboardactivity_about"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/SwichBoardActivity_img_about"
+                        android:textColor="@color/col_dark_Yellow"
+                        android:textSize="24sp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

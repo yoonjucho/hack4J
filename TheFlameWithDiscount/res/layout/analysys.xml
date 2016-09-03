@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/theflame_bg"
+    tools:ignore="RtlSymmetry,RtlHardcoded" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/topbar_theflame"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/img_resmenulistactivity_back4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_previous" />
+
+        <ImageView
+            android:id="@+id/img_resmenulistactivity_titlebar4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/title_bar"
+            android:contentDescription="@null" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/img_resmenulistactivity_cart4"
+                android:layout_width="36dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/eat_order_cart" />
+
+            <TextView
+                android:id="@+id/txt_resmenulistactivity_cartCount4"
+                android:layout_width="17dp"
+                android:layout_height="19dp"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/textbadgestyle"
+                android:gravity="center"
+                android:paddingLeft="1dp"
+                android:text="@string/count"
+                android:textColor="@android:color/black"
+                android:textSize="7sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+
+            <Spinner
+                android:id="@+id/analysisspinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/analysisspinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/analysisspinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="130dp" >
+
+            <Button
+                android:id="@+id/anaysissearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추출" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginBottom="9dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/black" />
+
+        <ListView
+            android:id="@+id/listView_analysys"
+            android:layout_width="match_parent"
+            android:layout_height="312dp"
+            
+            android:descendantFocusability="blocksDescendants"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:scrollbars="none" >
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

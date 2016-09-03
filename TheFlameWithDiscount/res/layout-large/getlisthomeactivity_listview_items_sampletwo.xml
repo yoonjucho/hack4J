@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    tools:ignore="UselessParent,RtlHardcoded" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false" >
+
+        <!-- Start Image Icon -->
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:focusable="false"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="1dp"
+                android:background="@color/col_dark_Yellow" />
+
+            <ImageView
+                android:id="@+id/img_getlisthomeactivity_listview_items_sampletwo_image"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="3dp"
+                android:contentDescription="@null"
+                android:focusable="false"
+                android:src="@drawable/userphoto" />
+
+            <ImageView
+                android:id="@+id/imageView_getlisthomeactivity_listview_items_sampletwo_frame"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="9dp"
+                android:layout_marginTop="3dp"
+                android:contentDescription="@null"
+                android:src="@drawable/circle_button_one" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="29dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="1dp"
+                android:background="@color/col_dark_Yellow" />
+
+            <View
+                android:layout_width="58dp"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom|right"
+                android:background="@color/col_dark_Yellow" />
+        </FrameLayout>
+        <!-- end Image Icon -->
+
+
+        <!-- Start Res Details -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="bottom"
+                android:background="@color/col_dark_Yellow" />
+
+            <LinearLayout
+                android:id="@+id/linly_getlisthomeactivity_listview_items_sampletwo_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txt_getlisthomeactivity_listview_items_sampletwo_resName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="36dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+                    android:text="@string/getlisthomeactivity_listview_items_sampletwo_resName"
+                    android:textColor="@color/col_flame_light_Yellow" />
+
+                <TextView
+                    android:id="@+id/txt_getlisthomeactivity_listview_items_sampletwo_resAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/getlisthomeactivity_listview_items_sampletwo_resAddress"
+                    android:textColor="@color/col_flame_light_Blue" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/txt_getlisthomeactivity_listview_items_sampletwo_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:text="@string/getlisthomeactivity_listview_items_sampletwo_rating"
+                        android:textColor="@android:color/white" />
+
+                    <RatingBar
+                        android:id="@+id/ratbar_getlisthomeactivity_listview_items_sampletwo"
+                        style="@style/MyRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:stepSize="0.1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/img_getlisthomeactivity_listview_items_sampletwo_call"
+                        android:layout_width="34dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_call" />
+
+                    <TextView
+                        android:id="@+id/txt_getlisthomeactivity_listview_items_sampletwo_callNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".7"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:text="@string/getlisthomeactivity_listview_items_sampletwo_phNUmber"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/txt_getlisthomeactivity_listview_items_sampletwo_review"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:text="@string/getlisthomeactivity_listview_items_sampletwo_review"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_getlisthomeactivity_listview_items_sampletwo_discount"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="right"
+                android:background="@drawable/discountcoupone"
+                android:gravity="center"
+                android:paddingBottom="7dp"
+                android:text="@string/getlisthomeactivity_discount"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txt_getlisthomeactivity_listview_items_sampletwo_discountZero"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="right"
+                android:background="@drawable/discountcouponezero"
+                android:gravity="center"
+                android:paddingBottom="7dp"
+                android:text="@string/getlisthomeactivity_discount"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </FrameLayout>
+        <!-- End Res Details -->
+    </LinearLayout>
+
+</LinearLayout>
